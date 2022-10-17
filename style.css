@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.title {
+    width: 100%;
+    height: 50px;
+    background-color: #C69B7B;
+}
+
+.logo {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 10px 0 0 40px;
+    color: black;
+}
+
+.menu {
+    display: inline-block;
+    width: calc(100% - 148px);
+}
+
+.menu .items_1 {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.items_1 .item_1 {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+.login {
+    padding-left: 120px;
+}
+
+.register {
+    padding-left: 20px;
+}
+
+.contact ~ li {
+    margin-right: 0;
+}
+
+.item_1 a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.item_1 a:hover {
+    color: white;
+}
+
+.item_1 a::before {
+    content: '\2022';
+    padding-right: 4px;
+}
+
+.login a {
+    font-size: 16px;
+    background-color: white;
+    padding: 8px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.register a {
+    font-size: 16px;
+    background-color: white;
+    padding: 8px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.login a:hover {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.register a:hover {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.login a::before {
+    content: none;
+}
+
+.register a::before {
+    content: none;
+}
+
+.section_1 {
+    width: 100%;
+    height: 911px;
+    background-color: teal;
+    background: url(img/filmler.jpg);
+    background-position: center;
+}
+
+.section_2 {
+    width: 100%;
+    height: 200px;
+}
+
+.section_2 h2{
+    text-align: center;
+    padding: 20px 0;
+    color: #3e4555;
+}
+
+.section_2 p {
+    font-size: 20px;
+}
+
+.section_3 {
+    width: 100%;
+    height: 200px;    
+}
+
+.section_3 div {
+    display: inline-block;
+    width: 30%;
+    height: 200px;
+    margin-left: 30px;
+}
+
+.section_3 div h2 {
+    margin: 20px 0 13px;
+    text-align: center;
+    color: #3e4555;
+}
+
+.section_3 div p {
+    font-size: 20px;
+}
